@@ -1,4 +1,7 @@
 import "./styles/styles.css";
-import food from "./img/food.jpg";
+import "./img/cup.svg";
+import {loadHome} from "../src/loadHome.js";
+import {addNavListeners} from "../src/addNavListeners.js";
 
-console.log("hello");
+addNavListeners();
+loadHome();
